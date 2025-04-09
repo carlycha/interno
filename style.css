@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+     *{            
+
+padding: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+color: black;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: "jost", sans-serif;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-family:"dm serif display", serif;
+    font: 50;
+}
+
+h1{
+    font-family:"dm serif display", serif;
+    font-size: 85px;
+}
+
+h3{
+    font-family:"dm serif display", serif;
+    font-size: 22px;
+}
+
+.flex{
+
+
+}
+.spaceBetween {
+    justify-content: space-between;
+    
+}
+
+.alignCenter {
+    align-items: center;
+
+}
+
+.gap20 {
+
+    gap: 20px;
+}
+
+.container {
+    max-width:1000px;
+    margin: auto;
+}
+
+.btn{
+
+    background-color: black;
+    color: aliceblue;
+    padding-left:31px;
+    padding-right:31px;
+    padding-top:26px;
+    padding-bottom:26px;
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.width30{
+
+    width: 30%;
+    padding-top: 150px;
+
+}
+.width45{
+width: 45%;
+
+}
+
+
+/* HEADER */
+.logo {
+    width: 200px;
+}
+
+.menu {
+    width: 30%;
+}
+
+header {
+    margin-top: 20px;
+}
+
+/* SECTION HERO */
+.hero {
+    background-image: url("asset/Banner.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 0 0 0 200px;
+    margin-top: 40;
+    padding-top: 100px;
+ 
+}
+
+
+.phero{
+    font-size: 22px;
+    margin-top: 40px;
+
+}
+
+/*section devis*/
+
+ .imagesectiondevie{
+    border-radius: 0 200px 0 50px;
+ }
+
+
+.iconAppl {
+    width: 30px;
+
+}
+
+.psectiondevis{
+margin-bottom: 15px;
+
+}
+
+
+
+
+
+
+
